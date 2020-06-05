@@ -4,11 +4,6 @@ const { LOG_PATH } = process.env;
 class GameController {
   async getGameInfo(req, res) {
     const { id } = req.params;
-
-    if (!id) {
-      return res.status(400).send("Game ID required.");
-    }
-
     const { path = LOG_PATH } = req.query;
 
     const GameCollection = await LogParserService.parse(path);
