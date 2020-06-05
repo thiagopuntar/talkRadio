@@ -1,0 +1,26 @@
+{
+  "name": "talkradio",
+  "version": "1.0.0",
+  "description": "Projeto para processo seletivo na Talk Radio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagopuntar/talkRadio.git"
+  },
+  "author": "Thiago Puntar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagopuntar/talkRadio/issues"
+  },
+  "homepage": "https://github.com/thiagopuntar/talkRadio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "line-reader": "^0.4.0"
+  }
+}
